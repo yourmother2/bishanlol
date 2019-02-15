@@ -1,0 +1,93 @@
+﻿html { 
+ background: url('images/gardens.jpg') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+ul {
+  text-style: none;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  width: 150px;
+}
+
+li a:hover {
+  background-color: #32CD32;
+  color: black;
+}
+
+body {
+ font-family: Comic Sans MS;
+ text-align: center;
+ color: white;
+ overflow-x:hidden;
+}
+
+h1 {
+ font-family: Candara;
+ border: 2px solid #32CD32;
+ background-color: rgba(0,0,0,0.4);
+ padding: 5px;
+ font-size: 290%;
+}
+
+img {
+ border: 2px solid #32CD32;
+ height: 300px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.column {
+ width: 100%;
+ margin: 0 auto;
+ border: 2px solid #32CD32;
+ font-size: 90%;
+ background-color: rgba(0,0,0,0.4);
+}
+
+h2 {
+ color: #32CD32;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container1 {
+  float: left;
+  width: 50%;
+  padding: 7px;
+}
+
+.img-container2 {
+  float: left;
+  width: 50%;
+  padding: 7px;
+}
+
+.column::after {
+  content: "";
+  clear: both;  
+  display: table;
+}
